@@ -1,18 +1,17 @@
 body {
   width: 1024px;
-  border: 1px solid red;
   margin: auto;
-  padding: 50px 50px 53px 50px;
+  border-left: 1px solid #222222;
+  border-right: 1px solid #222222;
+  padding: 50px 50px 63px 50px;
   position: relative;
   display: block; }
 
 #header-container {
-  border: 1px solid orange;
   position: absolute;
   padding: 10px; }
   #header-container h1 {
-    font-size: 45px;
-    border: 1px solid yellow; }
+    font-size: 45px; }
   #header-container #list--nav-items {
     display: flex;
     margin-top: 7px;
@@ -20,10 +19,14 @@ body {
     #header-container #list--nav-items .nav-item {
       font-size: 12px; }
       #header-container #list--nav-items .nav-item a {
-        text-decoration: none;
-        transition: 250ms; }
+        transition: 250ms;
+        text-decoration: none; }
+        #header-container #list--nav-items .nav-item a:link {
+          color: #222222; }
+        #header-container #list--nav-items .nav-item a:visited {
+          color: #222222; }
         #header-container #list--nav-items .nav-item a:hover {
-          background-color: #AED1FF; }
+          background-color: #d7eaef; }
         #header-container #list--nav-items .nav-item a:nth-child(10) {
           margin-left: 459px;
           width: 548 px; }
@@ -38,31 +41,28 @@ body {
   position: sticky;
   font-size: 24px;
   left: 543px;
-  top: 328px;
-  margin-left: 505px; }
+  top: 324px;
+  margin-left: 517px;
+  background-color: #d7eaef; }
 
 #main-container {
   display: flex;
-  border: 1px solid blue;
   margin-top: 250px; }
   #main-container #list--principles {
     position: relative;
     margin: auto; }
   #main-container .principles-list-item--container {
-    border: 1px solid green;
     justify-content: right; }
     #main-container .principles-list-item--container > a > p:nth-child(1) {
       font-size: 24px;
-      border: 1px solid brown;
       width: 556px;
-      margin-left: 471px; }
+      margin-left: 475px; }
       #main-container .principles-list-item--container > a > p:nth-child(1) em {
         white-space: pre; }
       #main-container .principles-list-item--container > a > p:nth-child(1) #last-principle {
         margin-left: 465px; }
     #main-container .principles-list-item--container > a > p:nth-child(2) {
       font-size: 12px;
-      border: 1px solid pink;
       width: 355px;
       margin: 10px 0px 150px 663px; }
 
