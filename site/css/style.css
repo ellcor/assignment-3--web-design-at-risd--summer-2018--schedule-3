@@ -3,7 +3,7 @@ body {
   margin: auto;
   border-left: 1px solid #222222;
   border-right: 1px solid #222222;
-  padding: 50px 50px 63px 50px;
+  padding: 50px 50px 109px 50px;
   position: relative;
   display: block; }
 
@@ -26,7 +26,7 @@ body {
         #header-container #list--nav-items .nav-item a:visited {
           color: #222222; }
         #header-container #list--nav-items .nav-item a:hover {
-          background-color: #d7eaef; }
+          background-color: #c9e0ea; }
         #header-container #list--nav-items .nav-item a:nth-child(10) {
           margin-left: 459px;
           width: 548 px; }
@@ -43,7 +43,7 @@ body {
   left: 543px;
   top: 324px;
   margin-left: 517px;
-  background-color: #d7eaef; }
+  background-color: #c9e0ea; }
 
 #main-container {
   display: flex;
