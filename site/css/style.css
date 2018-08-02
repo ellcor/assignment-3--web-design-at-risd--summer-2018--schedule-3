@@ -1,20 +1,20 @@
-#header-item--container {
+body {
   width: 1024px;
   border: 1px solid red;
   margin: 20px 20px;
-  position: relative; }
+  position: relative;
+  display: flex; }
 
-#header-item {
+#header-container {
   border: 1px solid orange;
   position: absolute; }
 
 h1 {
-  font-size: 26px;
+  font-size: 36px;
   border: 1px solid yellow; }
 
-body {
-  font-size: 12px;
-  border: 1px solid green;
-  margin-top: 40px; }
+.caption {
+  font-size: 10px;
+  position: absolute; }
 
 /*# sourceMappingURL=style.css.map */
